@@ -1,0 +1,80 @@
+﻿body {
+	max-width: 1000px;
+	max-height: 576px;
+	background-color: black;
+	color: white;
+	font-family: Century Gothic, Arial;
+	font-size: small;
+	text-align: justify;
+	line-height: 1.5;
+}
+h1 {
+	color: grey;
+	font-family: Viking-Normal, Stonecross, Century Gothic
+}
+
+h2 {
+	color: red;
+	font-family: Viking-Normal, Stonecross, Century Gothic
+}
+h2:first-letter {
+	font-size: 60px;
+	font-family: Celticmd;
+}
+a {
+	text-decoration: none;
+}
+}
+nav a {
+	text-decoration: none;
+	color: grey;
+	margin-right: 4px;
+}
+nav a.sie-sind-hier {
+	text-decoration: none;
+	color: red;
+}
+a:visited {
+	color: grey;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+a:active {
+	color: black;
+	text-decoration: none;
+}
+main div.txt {
+	color: grey;
+	max-width: 720px;
+}
+
+
+/* The animation code for Body */
+@keyframes example {
+    from {background-color: #F4F4F4;}
+    to {background-color: black;}
+}
+
+/* The element to apply the animation to */
+body {
+    background-color: black;
+    animation-name: example;
+    animation-duration: 10s;
+}
+p#creator {
+	float: right;
+	font-size: small;
+	padding: 10px;
+	color: white;
+}
+p#creator span {
+	color: red;
+	font-size: normal;
+}
+
+
+
+
